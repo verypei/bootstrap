@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Starter</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- NAVBAR -->
+      <div class="row">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-body-navbar">
+          <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+              <img
+                src="./images/bendera.png"
+                style="height: 25px"
+                class="bendera"
+              />
+            </a>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#"
+                    style="color: white"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#"
+                    style="color: white"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="row">
+        <!-- SIDE BAR -->
+        <nav class="col-md col-lg-2 d-md-block bg-dark sidebar collapse">
+          <div class="position-sticky pt">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white active"
+                  aria-current="page"
+                  href="#"
+                  ><i class="fa-solid fa-house me-2"></i>
+                  Dashboard
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  <i class="fa-solid fa-industry me-2"></i>Tambang
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  <i class="fa-solid fa-ship me-2"></i>Maritim
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  ><i class="fa-solid fa-wheat-awn me-2"></i> Agraris
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- CONTENT -->
+        <main class="col-md-10 ms-sm-auto col-lg-10 px-md-4">
+          <!-- 1ST CARDS -->
+          <div class="row m-auto">
+            <!-- 1 -->
+            <div class="col-lg-3 mt-4 mx-auto">
+              <div class="card" style="width: 16rem; height: 100%">
+                <!-- Image -->
+                <img
+                  src="./images/img1.jpg"
+                  class="card-img-top"
+                  style="height: 10rem"
+                  alt="Example Image"
+                />
+
+                <!-- Content -->
+                <div class="card-body">
+                  <h5 class="card-title">Ruang Kerja</h5>
+                  <p class="card-text">
+                    Indonesia kebanjiran ruangan kerja dengan gaji minimal 20jt
+                    perbulan. perusahaan mengakui sulit mendapatkan karyawan...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-lg-3 mt-4 mx-auto">
+              <div class="card" style="width: 16rem; height: 100%">
+                <!-- Image -->
+                <img
+                  src="./images/img2.jpg"
+                  class="card-img-top"
+                  style="height: 10rem"
+                  alt="Example Image"
+                />
+
+                <!-- Content -->
+                <div class="card-body">
+                  <h5 class="card-title">UU Ketenagakerjaan</h5>
+                  <p class="card-text">
+                    UU Ketenagakerjaan baru saja disahkan, negara menetapkan
+                    gaji ke 13 dan 14 hanya diberikan kepada programmer
+                    junior...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-lg-3 mt-4 mx-auto">
+              <div class="card" style="width: 16rem; height: 100%">
+                <!-- Image -->
+                <img
+                  src="./images/img3.jpg"
+                  class="card-img-top"
+                  style="height: 10rem"
+                  alt="Example Image"
+                />
+
+                <!-- Content -->
+                <div class="card-body">
+                  <h5 class="card-title">Ruang publik</h5>
+                  <p class="card-text">
+                    KPK mengakui sudah tidak memiliki pekerjaan imbas tidak
+                    adanya korupsi di indonesia...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="col-lg-3 mt-4 mx-auto">
+              <div class="card" style="width: 16rem; height: 100%">
+                <!-- Image -->
+                <img
+                  src="./images/img4.jpg"
+                  class="card-img-top"
+                  style="height: 10rem"
+                  alt="Example Image"
+                />
+
+                <!-- Content -->
+                <div class="card-body">
+                  <h5 class="card-title">Politik</h5>
+                  <p class="card-text">
+                    Anggota DPR mengakui semua negara di dunia mengagumi
+                    indonesia dalam hal pemberantasan korupsi dan mengatasi
+                    masalah Ketenagakerjaan...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- GRAPHS -->
+          <div class="row m-auto">
+            <div class="col-lg-3 ml-auto mt-4 card2">
+              <div class="card" style="width: 35rem; height: 100%">
+                <canvas id="barChart"></canvas>
+              </div>
+            </div>
+            <div class="col-lg-3 mx-auto mt-4 card2">
+              <div class="card" style="width: 35rem; height: 100%">
+                <canvas id="lineChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROGRESS BAR -->
+          <div class="row m-auto">
+            <div class="col-lg-3 ml-auto mt-4 card2">
+              <div class="card p-4" style="width: 35rem; height: 100%">
+                <div
+                  class="card-header"
+                  style="text-align: center; margin-top: 3px"
+                >
+                  Data gaji tenaga kerja indonesia 2025
+                </div>
+                <!-- progress bar 1 -->
+                <div
+                  class="progress pwh1 mb-3 mt-3"
+                  role="progressbar"
+                  aria-label="Basic example"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar-1 w-75">gaji guru</div>
+                </div>
+
+                <!-- progress bar 2 -->
+                <div
+                  class="progress pwh2 mb-3"
+                  role="progressbar"
+                  aria-label="Example 40px high"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar-2 w-75">gaji dpr</div>
+                </div>
+
+                <!-- progress bar 3 -->
+                <div
+                  class="progress pwh3 mb-3"
+                  role="progressbar"
+                  aria-label="Basic example"
+                  aria-valuenow="20"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar-3 w-75">gaji pejabat lain</div>
+                </div>
+
+                <!-- progress bar 4 -->
+                <div
+                  class="progress pwh4"
+                  role="progressbar"
+                  aria-label="Basic example"
+                  aria-valuenow="20"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar-4 w-75">gaji programer</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      // ---------------- DATA BAR CHART ----------------
+      const ctx = document.getElementById("barChart");
+      const dataBarChart = {
+        labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
+        datasets: [
+          {
+            label: "Data pengangguran Indonesia 2025",
+            data: [65, 50, 43, 37, 28, 21, 5],
+            backgroundColor: [
+              "rgba(255, 99, 132, 0.2)",
+              "rgba(255, 159, 64, 0.2)",
+              "rgba(255, 205, 86, 0.2)",
+              "rgba(75, 192, 192, 0.2)",
+              "rgba(54, 162, 235, 0.2)",
+              "rgba(153, 102, 255, 0.2)",
+              "rgba(201, 203, 207, 0.2)",
+            ],
+            borderColor: [
+              "rgb(255, 99, 132)",
+              "rgb(255, 159, 64)",
+              "rgb(255, 205, 86)",
+              "rgb(75, 192, 192)",
+              "rgb(54, 162, 235)",
+              "rgb(153, 102, 255)",
+              "rgb(201, 203, 207)",
+            ],
+            borderWidth: 1,
+          },
+        ],
+      };
+      new Chart(ctx, {
+        type: "bar",
+        data: dataBarChart,
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true,
+            },
+          },
+        },
+      });
+
+      // ---------------- DATA BAR CHART ----------------
+      const ctxLine = document.getElementById("lineChart");
+      const labels = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"];
+      const data = {
+        labels: labels,
+        datasets: [
+          {
+            label: "Data korupsi Indonesia 2025",
+            data: [50, 40, 30, 20, 10, 5, 1],
+            fill: false,
+            borderColor: "rgb(75, 192, 192)",
+            tension: 0.1,
+          },
+        ],
+      };
+
+      new Chart(ctxLine, {
+        type: "line",
+        data: data,
+      });
+    </script>
+  </body>
+</html>

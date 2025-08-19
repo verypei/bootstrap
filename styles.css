@@ -1,0 +1,66 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.bg-body-navbar {
+  background-color: #d21a1a !important;
+}
+.sidebar {
+  position: relative;
+  background-color: #ffffff; /* fallback kalau gambar gagal load */
+  overflow: hidden;
+}
+.sidebar::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* menutupi seluruh sidebar */
+  background: url("./images/bendera2.png") no-repeat center center;
+  background-size: cover; /* menyesuaikan ukuran gambar */
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.sidebar .nav,
+.sidebar a {
+  position: relative;
+  z-index: 1; /* agar teks/menu tidak ikut transparan */
+}
+
+i {
+  color: rgb(248, 248, 248);
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.progress {
+  height: 25px;
+}
+.progress-bar-1 {
+  background-color: rgb(84, 80, 139);
+  color: white;
+  text-align: center;
+}
+.progress-bar-2 {
+  background-color: rgb(163, 90, 111);
+  color: white;
+  text-align: center;
+}
+.progress-bar-3 {
+  background-color: rgb(48, 144, 121);
+  color: white;
+  text-align: center;
+}
+.progress-bar-4 {
+  background-color: rgb(134, 171, 48);
+  color: white;
+  text-align: center;
+}
+.pwh1 {
+  width: 90%;
+}
+.pwh2 {
+  width: 45%;
+}
+.pwh3 {
+  width: 35%;
+}
