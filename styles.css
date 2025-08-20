@@ -19,21 +19,19 @@
   opacity: 0.2;
   z-index: 0;
 }
-
 .sidebar .nav,
 .sidebar a {
   position: relative;
   z-index: 1; /* agar teks/menu tidak ikut transparan */
 }
-
 i {
   color: rgb(248, 248, 248);
   font-size: 16px;
   margin-right: 8px;
 }
-
 .progress {
-  height: 25px;
+  width: 400px; /* semua progress bar panjangnya sama persis */
+  height: 30px; /* opsional: biar tebal */
 }
 .progress-bar-1 {
   background-color: rgb(84, 80, 139);
@@ -63,4 +61,14 @@ i {
 }
 .pwh3 {
   width: 35%;
+}
+.pbar {
+  margin-right: 1.4rem;
+}
+.card-header {
+  padding-top: 1rem; /* atas */
+  padding-bottom: 1rem; /* bawah */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* biar teks benar2 tengah */
 }

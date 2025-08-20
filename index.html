@@ -92,6 +92,7 @@
             </ul>
           </div>
         </nav>
+
         <!-- CONTENT -->
         <main class="col-md-10 ms-sm-auto col-lg-10 px-md-4">
           <!-- 1ST CARDS -->
@@ -183,6 +184,7 @@
               </div>
             </div>
           </div>
+
           <!-- GRAPHS -->
           <div class="row m-auto">
             <div class="col-lg-3 ml-auto mt-4 card2">
@@ -197,63 +199,106 @@
             </div>
           </div>
 
-          <!-- PROGRESS BAR -->
+          <!-- PROGRESS BAR and TABLE -->
           <div class="row m-auto">
-            <div class="col-lg-3 ml-auto mt-4 card2">
-              <div class="card p-4" style="width: 35rem; height: 100%">
-                <div
-                  class="card-header"
-                  style="text-align: center; margin-top: 3px"
-                >
-                  Data gaji tenaga kerja indonesia 2025
-                </div>
-                <!-- progress bar 1 -->
-                <div
-                  class="progress pwh1 mb-3 mt-3"
-                  role="progressbar"
-                  aria-label="Basic example"
-                  aria-valuenow="100"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  <div class="progress-bar-1 w-75">gaji guru</div>
+            <!-- progress bar -->
+            <div class="col-auto ml-auto mt-4 card2 pbar">
+              <div class="card" style="width: 35rem; height: 100%">
+                <div class="card-header">
+                  Data gaji tenaga kerja indonesia 2025 (juta)
                 </div>
 
-                <!-- progress bar 2 -->
-                <div
-                  class="progress pwh2 mb-3"
-                  role="progressbar"
-                  aria-label="Example 40px high"
-                  aria-valuenow="100"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  <div class="progress-bar-2 w-75">gaji dpr</div>
+                <div class="progress mb-3 mt-3" style="width: 100%">
+                  <div
+                    class="progress-bar bg-primary"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    gaji guru
+                  </div>
                 </div>
 
-                <!-- progress bar 3 -->
-                <div
-                  class="progress pwh3 mb-3"
-                  role="progressbar"
-                  aria-label="Basic example"
-                  aria-valuenow="20"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  <div class="progress-bar-3 w-75">gaji pejabat lain</div>
+                <div class="progress mb-3" style="width: 100%">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    style="width: 30%"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    gaji dpr
+                  </div>
                 </div>
 
-                <!-- progress bar 4 -->
-                <div
-                  class="progress pwh4"
-                  role="progressbar"
-                  aria-label="Basic example"
-                  aria-valuenow="20"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  <div class="progress-bar-4 w-75">gaji programer</div>
+                <div class="progress mb-3" style="width: 100%">
+                  <div
+                    class="progress-bar bg-warning"
+                    role="progressbar"
+                    style="width: 20%"
+                    aria-valuenow="20"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    gaji pejabat lain
+                  </div>
                 </div>
+
+                <div class="progress mb-3" style="width: 100%">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 100%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    gaji programer
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- tabel -->
+            <div class="col-auto ml-auto mt-4 card2">
+              <div class="card" style="width: 35rem; height: 100%">
+                <div class="card-header">
+                  Index Kepercayaan Publik 2025 (propinsi)
+                </div>
+
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">No</th>
+                      <th scope="col">Provinsi</th>
+                      <th scope="col">Index</th>
+                      <th scope="col">jumlah penduduk (juta)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Jawa Barat</td>
+                      <td>90%</td>
+                      <td class="text-center">32</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jawa Timur</td>
+                      <td>93%</td>
+                      <td class="text-center">34</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Sumatera Selatan</td>
+                      <td>91%</td>
+                      <td class="text-center">28</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
